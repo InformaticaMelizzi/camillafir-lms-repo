@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <install>
-  <id>camillafir</id>
   <version>0.1</version>
   <name>CamillaFIR DSP</name>
-  <dir>CamillaFIR</dir>
   <module>Plugins::CamillaFIR::Plugin</module>
+  <minTarget>7.9</minTarget>
+  <maxTarget>*</maxTarget>
 </install>
