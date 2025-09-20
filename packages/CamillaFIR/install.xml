@@ -3,10 +3,9 @@
   <id>camillafir</id>
   <version>0.1</version>
   <name>CamillaFIR DSP</name>
-  <dir>CamillaFIR</dir>
-  <module>Plugins::CamillaFIR::Plugin</module>
-  <minTarget>7.9</minTarget>
+  <module>CamillaFIR::Plugin</module>
+  <creator>Informatica Melizzi</creator>
+  <description>Convolution FIR processing with CamillaDSP</description>
+  <minTarget>0.0</minTarget>
   <maxTarget>*</maxTarget>
-  <os>Linux</os>
-  <icon>HTML/EN/icon.png</icon>
 </install>
