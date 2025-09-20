@@ -1,13 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <install>
   <id>camillafir</id>
   <version>0.1</version>
   <name>CamillaFIR DSP</name>
+  <dir>CamillaFIR</dir>
   <module>CamillaFIR.pm</module>
   <creator>Informatica Melizzi</creator>
   <homepage>https://github.com/InformaticaMelizzi/camillafir-lms-repo</homepage>
   <description>Convolution FIR processing with CamillaDSP</description>
-  <minTarget>8.0</minTarget>
-  <os>
-    <linux/>
-  </os>
+  <minTarget>7.9</minTarget>
+  <maxTarget>*</maxTarget>
+  <os>Linux</os>
+  <icon>HTML/EN/icon.png</icon>
 </install>
