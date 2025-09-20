@@ -1,6 +1,17 @@
 package Plugins::CamillaFIR::Plugin;
+
 use strict;
-our $VERSION = '0.1';
-sub initPlugin { 1 }
-sub getDisplayName { 'CamillaFIR DSP' }
+use warnings;
+
+use base qw(Slim::Plugin::Base);
+
+sub initPlugin {
+    my $class = shift;
+    $class->SUPER::initPlugin(@_);
+}
+
+sub getDisplayName {
+    return 'PLUGIN_CAMILLAFIR';
+}
+
 1;
