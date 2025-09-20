@@ -1,0 +1,12 @@
+<plugins>
+  <plugin name="CamillaFIR" version="0.1">
+    <title>CamillaFIR</title>
+    <desc>Interfaccia LMS per CamillaDSP/FIR</desc>
+    <creator>informaticamelizzi</creator>
+    <module>Plugins::CamillaFIR::Plugin</module>
+    <url>https://raw.githubusercontent.com/informaticamelizzi/camillafir-lms-repo/main/packages/CamillaFIR-0.1.zip</url>
+    <sha>ignored</sha>
+    <default>0</default>
+    <minVersion>8.0</minVersion>
+  </plugin>
+</plugins>
