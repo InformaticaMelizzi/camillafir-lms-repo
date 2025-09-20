@@ -1,7 +1,9 @@
-<plugin
-  name="CamillaFIR"
-  version="0.1"
-  author="Informatica Melizzi"
-  description="FIR DSP con CamillaDSP"
-  module="Plugins::CamillaFIR::Plugin">
-</plugin>
+<install>
+  <id>camillafir</id>
+  <version>0.1</version>
+  <name>CamillaFIR DSP</name>
+  <module>CamillaFIR.pm</module>
+  <creator>Informatica Melizzi</creator>
+  <homepage>https://github.com/InformaticaMelizzi/camillafir-lms-repo</homepage>
+  <description>Convolution FIR processing with CamillaDSP</description>
+</install>
