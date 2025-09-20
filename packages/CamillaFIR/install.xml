@@ -6,4 +6,8 @@
   <creator>Informatica Melizzi</creator>
   <homepage>https://github.com/InformaticaMelizzi/camillafir-lms-repo</homepage>
   <description>Convolution FIR processing with CamillaDSP</description>
+  <minTarget>8.0</minTarget>
+  <os>
+    <linux/>
+  </os>
 </install>
