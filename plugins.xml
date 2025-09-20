@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extensions>
   <plugins>
-    <plugin name="CamillaFIR" version="0.1" minTarget="8.0" maxTarget="*">
+    <plugin name="CamillaFIR" version="0.1" minTarget="0.0" maxTarget="*">
       <title lang="EN">CamillaFIR DSP</title>
       <desc lang="EN">Convolution FIR processing with CamillaDSP</desc>
       <category>tools</category>
