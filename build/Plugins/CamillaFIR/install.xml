@@ -1,0 +1,7 @@
+<install>
+  <id>CamillaFIR</id>
+  <version>0.1</version>
+  <name>CamillaFIR</name>
+  <module>Plugins::CamillaFIR::Plugin</module>
+  <minVersion>8.0</minVersion>
+</install>

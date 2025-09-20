@@ -1,0 +1,7 @@
+<plugin
+  name="CamillaFIR"
+  version="0.1"
+  author="Informatica Melizzi"
+  description="FIR DSP con CamillaDSP"
+  module="Plugins::CamillaFIR::Plugin">
+</plugin>
