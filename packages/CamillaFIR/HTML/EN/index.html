@@ -1,74 +1,7 @@
 <html>
-  <head><title>CamillaFIR</title></head>
-  <body>
-    <h1>CamillaFIR DSP</h1>
-
-    <p>Status: [% status %]</p>
-
-    <form method="post" action="/camillafir?action=generate" enctype="multipart/form-data">
-      <label>Filtro L.wav: <input type="file" name="Lfile"></label><br>
-      <label>Filtro R.wav: <input type="file" name="Rfile"></label><br>
-
-      <label>Dither:
-        <select name="dither">
-          <option value="none">None</option>
-          <option value="rectangular">Rectangular</option>
-          <option value="triangular">Triangular</option>
-          <option value="shibata">Shibata</option>
-          <option value="lipschitz">Lipschitz</option>
-          <option value="f_weighted">F-weighted</option>
-        </select>
-      </label><br>
-
-      <label>Output Bits:
-        <select name="bits">
-          <option value="16">16</option>
-          <option value="24">24</option>
-          <option value="32">32</option>
-        </select>
-      </label><br>
-
-      <label>Output Format:
-        <select name="format">
-          <option value="wav">WAV</option>
-          <option value="flac">FLAC</option>
-        </select>
-      </label><br>
-
-      <label>Target Precision:
-        <select name="precision">
-          <option value="S16LE">16-bit int</option>
-          <option value="S24LE">24-bit int</option>
-          <option value="S32LE">32-bit int</option>
-          <option value="FLOAT32">32-bit float</option>
-          <option value="FLOAT64">64-bit float</option>
-        </select>
-      </label><br>
-
-      <label>Sample Rate:
-        <select name="rate">
-          <option value="44100">44.1 kHz</option>
-          <option value="48000">48 kHz</option>
-          <option value="88200">88.2 kHz</option>
-          <option value="96000">96 kHz</option>
-          <option value="176400">176.4 kHz</option>
-          <option value="192000">192 kHz</option>
-          <option value="352800">352.8 kHz</option>
-          <option value="384000">384 kHz</option>
-          <option value="705600">705.6 kHz</option>
-          <option value="768000">768 kHz</option>
-        </select>
-      </label><br>
-
-      <input type="submit" value="Genera Config">
-    </form>
-
-    <form method="post" action="/camillafir?action=start">
-      <input type="submit" value="Start DSP">
-    </form>
-
-    <form method="post" action="/camillafir?action=stop">
-      <input type="submit" value="Stop DSP">
-    </form>
-  </body>
+<head><title>CamillaFIR DSP</title></head>
+<body>
+<h1>CamillaFIR DSP</h1>
+<p>Plugin scheletro minimale installato correttamente.</p>
+</body>
 </html>
