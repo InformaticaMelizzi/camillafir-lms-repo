@@ -3,7 +3,7 @@
   <id>CamillaFIR</id>
   <version>0.1</version>
   <name>CamillaFIR DSP</name>
-  <module>CamillaFIR.pm</module>
+  <module>Plugins::CamillaFIR::Plugin</module>
   <creator>Informatica Melizzi</creator>
   <description>Convolution FIR processing with CamillaDSP</description>
 </install>
