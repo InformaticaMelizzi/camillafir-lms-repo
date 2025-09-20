@@ -8,7 +8,7 @@
   <creator>Informatica Melizzi</creator>
   <homepage>https://github.com/InformaticaMelizzi/camillafir-lms-repo</homepage>
   <description>Convolution FIR processing with CamillaDSP</description>
-  <minTarget>7.9</minTarget>
+  <minTarget>0.0</minTarget>
   <maxTarget>*</maxTarget>
   <os>Linux</os>
   <icon>HTML/EN/icon.png</icon>
