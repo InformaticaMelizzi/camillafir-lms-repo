@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extensions>
   <plugins>
-    <plugin name="CamillaFIR" version="0.1" minTarget="0.0" maxTarget="*">
+    <plugin name="CamillaFIR" version="0.1" minTarget="7.9" maxTarget="*">
       <title lang="EN">CamillaFIR DSP</title>
       <desc lang="EN">Convolution FIR processing with CamillaDSP</desc>
       <category>tools</category>
       <creator>Informatica Melizzi</creator>
       <link>https://github.com/InformaticaMelizzi/camillafir-lms-repo</link>
       <url>https://raw.githubusercontent.com/InformaticaMelizzi/camillafir-lms-repo/main/packages/CamillaFIR-0.1.zip</url>
-      <sha>e5af88aba679959e4503aa1cbe97b3005fff4d1</sha>
+      <sha>0b2d927c2f59059ab64b30414c882137bdba0b7d</sha>
     </plugin>
   </plugins>
 </extensions>

@@ -1,7 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <install>
   <id>CamillaFIR</id>
   <version>0.1</version>
   <name>CamillaFIR</name>
   <module>Plugins::CamillaFIR::Plugin</module>
-  <minVersion>8.0</minVersion>
+  <creator>Informatica Melizzi</creator>
+  <description>CamillaFIR DSP</description>
 </install>
